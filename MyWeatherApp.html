@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rubber Hose Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cloudy with a Wink</h1>
+
+    <div id="sky">
+      <canvas id="hoseCanvas" width="400" height="300"></canvas>
+      <div id="sun">
+        <video autoplay loop muted>
+          <source src="Sun_Cartoon.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div id="moon">
+        <video autoplay loop muted>
+          <source src="Moon_Cartoons.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+
+    <div id="controls">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="getWeatherButton">Get Weather</button>
+    </div>
+
+    <div id="forecastContainer">
+      <div id="hourlyForecast"></div>
+      <div id="weeklyForecast"></div>
+    </div>
+
+    <div id="currentWeather">
+      <div id="time"></div>
+      <div id="date"></div>
+      <div id="temperature"></div>
+      <div id="day"></div>
+    </div>
+
+    <script src="MyWeatherApp.js"></script>
+  </body>
+</html>

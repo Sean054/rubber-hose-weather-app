@@ -1,0 +1,12 @@
+# API Keys and sensitive files
+config.js
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large video files (optional)
+*.mp4
+*.mov
+*.avi 
