@@ -1,4 +1,5 @@
 # Rubber Hose Weather App 🌞🌙
+(This is my very first project and first time making it public, any feedback and advice would be awesome! Thank You!)
 
 A vintage cartoon-style weather application featuring animated sun and moon elements that move across the sky based on real-time data.
 
